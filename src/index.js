@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import NuevoComponente from './view/nuevoComponente';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import NuevoNavDos from './view/nuevoNavDos';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <NuevoNavDos/>
+    <NuevoComponente/>
+   
   </React.StrictMode>
 );
 
